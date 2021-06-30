@@ -11,7 +11,9 @@ body {
 nav {
 	background: none;
 	margin: auto;
-	width: 860px;
+	width:860px;
+	
+	margin-left: 33%;
 }
 
 figure{
@@ -84,7 +86,7 @@ figure a:hover {
 
 .Experience {
 	width: 1060px;
-	margin: auto;
+	margin: auto
 	
 }
 
@@ -141,6 +143,7 @@ figure a:hover {
 	width: 660px;
 	margin: auto;
 	margin-top: -150px;
+	margin-left: 37.7%;
 }
 
 .About-Me p {
@@ -243,7 +246,7 @@ background: none;
 
 li {
 	float: left;
-
+	margin-top: -5%;
 }
 
 li p1 {
