@@ -56,7 +56,6 @@ figure a:hover {
 	line-height: 1.5;
 	font-weight: 300;
 	text-align: center;
-	margin: auto;
 }
 
 .about-wrap h3 {
@@ -88,7 +87,45 @@ figure a:hover {
 .Experience {
 	width: 1060px;
 	margin: auto;
-	margin-left: -200px;
+	
+}
+
+.Experience h2 {
+	margin-top: -303px;
+	margin-bottom: 50px;
+	font-size: 2rem;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 300;
+	text-align: center;
+	margin: auto;
+}
+
+.Experience h3 {
+	font-size: 2rem;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 300;
+	text-align: center;
+}
+
+.Experience h4 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: left;
+}
+
+.Experience span {
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: grey;
+	line-height: 1.5;
+	font-weight: 300;
 }
 
 .description p {
