@@ -6,6 +6,7 @@ body {
 	font-weight: 400;
 	color: #8c8c8c;
 	position: relative;
+	
 }
 nav {
 	background: none;
@@ -21,14 +22,15 @@ figure{
 	text-align: center;
 }
 
-figure a{
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	padding-right: 20px;
-	text-decoration: none;
-}
+	figure a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		padding-right: 20px;
+		text-decoration: none;
+		margin: auto;
+	}
 
 figure a:link, a:visited, a:active {
 	background: none;
@@ -54,6 +56,7 @@ figure a:hover {
 	line-height: 1.5;
 	font-weight: 300;
 	text-align: center;
+	margin: auto;
 }
 
 .about-wrap h3 {
@@ -84,6 +87,7 @@ figure a:hover {
 
 .Experience {
 	width: 1060px;
+	margin: auto;
 	margin-left: -200px;
 }
 
