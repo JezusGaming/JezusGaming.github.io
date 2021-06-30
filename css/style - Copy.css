@@ -15,6 +15,36 @@ nav {
 	z-index: 10;
 }
 
+figure{
+	float: right;
+	margin:auto;
+	text-align: center;
+}
+
+figure a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+figure a:link, a:visited, a:active {
+	background: none;
+	line-height: 1.8;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+figure a:hover {
+	background: none;
+	line-height: 1.8;
+	font-weight: 400;
+	color: gray;
+	text-decoration: none;
+}
+
 .about-wrap h2 {
 	margin-top: -303px;
 	margin-bottom: 50px;
@@ -95,6 +125,65 @@ nav {
 	text-transform: uppercase;
 	font-size: 10em;
 }
+
+.Project-Header {
+	text-align:center;
+	margin-top: 150px;
+	font-size: 28px;
+}
+
+.Project-Header h1 {
+	font-size: 32px;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+.Project-Content {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.Project-Content-Display {
+	display: flex;
+	margin-top: -20px;
+}
+
+.Project-Content h1 {
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+	.Project-Content p {
+		padding-left: 10px;
+		margin-top: 5px;
+	}
+
+.Project-Content p2 {
+	margin-top: -10px;
+}
+
+	.Project-Content span {
+		font-size: 22px;
+		letter-spacing: 1px;
+		color: grey;
+		line-height: 1.5;
+		font-weight: 300;
+	}
+
+	.Project-Content h2 {
+		font-size: 22px;
+		letter-spacing: 1px;
+		color: grey;
+		line-height: 1.5;
+		font-weight: 300;
+	}
 
 ul {
 	list-style-type: none;
