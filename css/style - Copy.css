@@ -10,10 +10,8 @@ body {
 }
 nav {
 	background: none;
-	position: fixed;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 10;
+	margin: auto;
+	width: 860px;
 }
 
 figure{
@@ -245,6 +243,7 @@ background: none;
 
 li {
 	float: left;
+
 }
 
 li p1 {
@@ -252,7 +251,6 @@ li p1 {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	padding-right: 100px;
 	text-decoration: none;
 }
 
@@ -261,7 +259,6 @@ li a {
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
-	padding-right: 20px;
 	text-decoration: none;
 }
 
@@ -371,16 +368,3 @@ img {
 	}
 }
 
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-@media screen and (max-width: 600px) {
-	li a {
-		float: none;
-		display: block;
-	}
-
-	nav {
-		position: relative;
-		left: 0;
-		transform: none;
-	}
-}
