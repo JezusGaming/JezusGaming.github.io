@@ -86,7 +86,7 @@ figure a:hover {
 
 .Experience {
 	width: 1060px;
-	margin: auto
+	margin: auto;
 	
 }
 
@@ -139,15 +139,14 @@ figure a:hover {
 }
 
 .about-wrap {
-	
-	width: 660px;
+	width: 1060px;
 	margin: auto;
 	margin-top: -150px;
-	margin-left: 37.7%;
 }
 
 .About-Me p {
 	width: 660px;
+	margin: auto;
 }
 
 /*.About-Me p {
@@ -166,6 +165,7 @@ figure a:hover {
 	color: rgba(255, 255, 255, 0.08);
 	text-transform: uppercase;
 	font-size: 10em;
+	text-align:center;
 }
 
 .Project-Header {
