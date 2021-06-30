@@ -99,7 +99,6 @@ figure a:hover {
 	line-height: 1.5;
 	font-weight: 300;
 	text-align: center;
-	margin: auto;
 }
 
 .Experience h3 {
@@ -168,10 +167,16 @@ figure a:hover {
 	text-align:center;
 }
 
+.Projects {
+	margin: auto;
+}
+
 .Project-Header {
-	text-align:center;
-	margin-top: 150px;
+	width: 1060px;
+	text-align: center;
 	font-size: 28px;
+	margin: auto;
+	margin-top: 150px;
 }
 
 .Project-Header h1 {
@@ -184,7 +189,7 @@ figure a:hover {
 
 .Project-Content {
 	width: 1060px;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .Project-Content-Display {
