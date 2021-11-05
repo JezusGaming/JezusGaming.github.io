@@ -12,8 +12,7 @@ nav {
 	background: none;
 	margin: auto;
 	width:860px;
-	
-	margin-left: 33%;
+	margin-left: 30%;
 }
 
 figure{
@@ -187,7 +186,7 @@ figure a:hover {
 	font-weight: 300;
 }
 
-.Project-Content {
+.Project-Content-Right {
 	width: 1060px;
 	margin: auto;
 }
@@ -197,7 +196,52 @@ figure a:hover {
 	margin-top: -20px;
 }
 
-.Project-Content h1 {
+.Project-Content-Right h1 {
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #fff;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+	.Project-Content-Right p {
+		padding-left: 10px;
+		margin-top: 5px;
+	}
+
+.Project-Content-Right p2 {
+	margin-top: -10px;
+}
+
+	.Project-Content-Right span {
+		font-size: 22px;
+		letter-spacing: 1px;
+		color: grey;
+		line-height: 1.5;
+		font-weight: 300;
+	}
+
+	.Project-Content-Right h2 {
+		font-size: 22px;
+		letter-spacing: 1px;
+		color: grey;
+		line-height: 1.5;
+		font-weight: 300;
+	}
+
+.Project-Content-Left {
+	width: 1060px;
+	margin: auto;
+}
+
+.Project-Content-Display {
+	display: flex;
+	margin-top: -20px;
+}
+
+.Project-Content-Left h1 {
 	font-size: 28px;
 	letter-spacing: 1px;
 	color: #fff;
@@ -207,30 +251,30 @@ figure a:hover {
 	margin-bottom: 30px;
 }
 
-	.Project-Content p {
-		padding-left: 10px;
-		margin-top: 5px;
-	}
+.Project-Content-Left p {
+	padding-left: 10px;
+	margin-top: 5px;
+}
 
-.Project-Content p2 {
+.Project-Content-Left p2 {
 	margin-top: -10px;
 }
 
-	.Project-Content span {
-		font-size: 22px;
-		letter-spacing: 1px;
-		color: grey;
-		line-height: 1.5;
-		font-weight: 300;
-	}
+.Project-Content-Left span {
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: grey;
+	line-height: 1.5;
+	font-weight: 300;
+}
 
-	.Project-Content h2 {
-		font-size: 22px;
-		letter-spacing: 1px;
-		color: grey;
-		line-height: 1.5;
-		font-weight: 300;
-	}
+.Project-Content-Left h2 {
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: grey;
+	line-height: 1.5;
+	font-weight: 300;
+}
 
 ul {
 	list-style-type: none;
