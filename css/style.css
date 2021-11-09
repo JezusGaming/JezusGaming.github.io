@@ -141,6 +141,43 @@ figure a:hover {
 	font-weight: 300;
 }
 
+.about-wrap {
+	width: 1060px;
+	margin: auto;
+	margin-top: -150px;
+}
+
+.About-Me p {
+	width: 660px;
+	margin: auto;
+}
+
+.About-Me a1 {
+	padding-right: 160px;
+}
+
+.About-Me a2 {
+}
+
+/*.About-Me p {
+	width: 860px;
+	margin-left: -100px;
+}*/
+
+
+/*.About-Me p {
+	width: 1060px;
+	margin-left: -200px;
+}*/
+
+.about-section {
+	font-weight: 700 !important;
+	color: rgba(255, 255, 255, 0.08);
+	text-transform: uppercase;
+	font-size: 10em;
+	text-align: center;
+}
+
 .Experience {
 	width: 1060px;
 	margin: auto;
@@ -192,36 +229,6 @@ figure a:hover {
 .year {
 	margin-top: -80px;
 	float: right;
-}
-
-.about-wrap {
-	width: 1060px;
-	margin: auto;
-	margin-top: -150px;
-}
-
-.About-Me p {
-	width: 660px;
-	margin: auto;
-}
-
-/*.About-Me p {
-	width: 860px;
-	margin-left: -100px;
-}*/
-
-
-/*.About-Me p {
-	width: 1060px;
-	margin-left: -200px;
-}*/
-
-.about-section {
-	font-weight: 700 !important;
-	color: rgba(255, 255, 255, 0.08);
-	text-transform: uppercase;
-	font-size: 10em;
-	text-align:center;
 }
 
 .Projects {
