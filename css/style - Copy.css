@@ -8,11 +8,67 @@ body {
 	position: relative;
 	
 }
-nav {
-	background: none;
+.header {
+	background: #121212;
+	width: 860px;
 	margin: auto;
-	width:860px;
-	margin-left: 30%;
+	margin-top: -40px;
+}
+
+ul {
+	z-index: 10;
+	background: rgba(0, 0, 0, 0.85);
+	position: fixed;
+	list-style-type: none;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 5px;
+	display: block;
+	text-align: center;
+	float: none;
+}
+
+ul .active {
+	background: none;
+}
+
+li {
+	float: left;
+	
+}
+
+li p1 {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:link, a:visited, a:active {
+	background: none;
+	line-height: 1.8;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	background: none;
+	line-height: 1.8;
+	font-weight: 400;
+	color: gray;
+	text-decoration: none;
 }
 
 figure{
@@ -277,58 +333,7 @@ figure a:hover {
 	font-weight: 300;
 }
 
-ul {
-	list-style-type: none;
-	font-size: 26px;
-	text-transform: uppercase;
-	color: #fff;
-	font-weight: 400;
-	letter-spacing: 5px;
-	display: block;
-	text-align: center;
-	float: none;
-	
-}
 
-ul .active {
-background: none;
-}
-
-li {
-	float: left;
-	margin-top: -5%;
-}
-
-li p1 {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:link, a:visited, a:active {
-	background: none;
-	line-height: 1.8;
-	font-weight: 400;
-	color: white;
-	text-decoration: none;
-}
-li a:hover {
-	background: none;
-	line-height: 1.8;
-	font-weight: 400;
-	color: gray;
-	text-decoration: none;
-}
 
 * {
 	box-sizing: border-box;
@@ -347,7 +352,7 @@ img {
 	max-width: 1000px;
 	position: relative;
 	margin: auto;
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 /* Caption text */
@@ -368,7 +373,7 @@ img {
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 /* The dots/bullets/indicators */
