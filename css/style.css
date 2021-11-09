@@ -28,6 +28,9 @@ ul {
 	display: block;
 	text-align: center;
 	float: none;
+	width: 10000px;
+	padding-left: 600px;
+	margin-left: -600px;
 }
 
 ul .active {
@@ -36,7 +39,6 @@ ul .active {
 
 li {
 	float: left;
-	
 }
 
 li p1 {
