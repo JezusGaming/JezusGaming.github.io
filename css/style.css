@@ -29,8 +29,8 @@ ul {
 	text-align: center;
 	float: none;
 	width: 10000px;
-	padding-left: 600px;
-	margin-left: -600px;
+	padding-left: 1000px;
+	margin-left: -1000px;
 }
 
 ul .active {
