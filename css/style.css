@@ -152,11 +152,20 @@ figure a:hover {
 	margin: auto;
 }
 
-.About-Me a1 {
+.Links {
+	text-align:center;
+}
+
+	.Links a {
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+
+.Insta a {
 	padding-right: 160px;
 }
 
-.About-Me a2 {
+.Twitter a {
 }
 
 /*.About-Me p {
