@@ -230,6 +230,11 @@ figure a:hover {
 	font-weight: 300;
 }
 
+.description a {
+	color: white;
+	text-decoration: none;
+}
+
 .description p {
 	margin-top: -20px;
 	padding-bottom: 10px;
