@@ -141,15 +141,33 @@ figure a:hover {
 	font-weight: 300;
 }
 
+.about-wrap a {
+	text-decoration: none;
+	color: Highlight;
+}
+
+.about-wrap a:visited {
+	text-decoration: none;
+	color: Highlight;
+}
+
+
 .about-wrap {
 	width: 1060px;
 	margin: auto;
 	margin-top: -150px;
 }
 
+
 .About-Me p {
 	width: 660px;
 	margin: auto;
+}
+
+.Contact-Info p {
+	width: 660px;
+	margin: auto;
+	text-align: center;
 }
 
 .Links {
