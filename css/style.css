@@ -301,15 +301,16 @@ figure a:hover {
 	font-weight: 400;
 	text-align: right;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 	.Project-Content-Right p {
 		padding-left: 10px;
-		margin-top: 5px;
+		margin-top: 60px;
 	}
 
 .Project-Content-Right p2 {
-	margin-top: -5px;
+	margin-top: 60px;
 	padding-right: 5px;
 }
 
@@ -329,11 +330,31 @@ figure a:hover {
 		font-weight: 300;
 	}
 
+.Project-Content-Right figure {
+	margin-top: -50px;
+}
+
+.Project-Content-Right figcaption {
+	text-align: right;
+	margin-right: -12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .Project-Content-Left {
 	width: 1060px;
 	margin: auto;
 }
 
+.Project-Content-Left figure{
+	margin-top: -50px;
+}
+	.Project-Content-Left figcaption {
+		text-align: left;
+		margin-left: -12px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 
 .Project-Content-Display {
 	display: flex;
@@ -348,16 +369,17 @@ figure a:hover {
 	font-weight: 400;
 	text-align: left;
 	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 .Project-Content-Left p {
 	padding-left: 10px;
-	margin-top: -10px;
+	margin-top: 60px;
 }
 
 .Project-Content-Left p2 {
 	padding-left: 10px;
-	margin-top: -5px;
+	margin-top: 60px;
 }
 
 .Project-Content-Left span {
@@ -376,7 +398,15 @@ figure a:hover {
 	font-weight: 300;
 }
 
+.Bottom-Text{
+	margin-left: -12px;
+	margin-top: -65px;
+}
 
+.Bottom-Text-First {
+	margin-left: -12px;
+	margin-top: -75px;
+}
 
 * {
 	box-sizing: border-box;
